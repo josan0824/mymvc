@@ -1,0 +1,2 @@
+C:\Users\Administrator\source\repos\mymvc\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\mymvc\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache

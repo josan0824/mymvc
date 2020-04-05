@@ -1,0 +1,5 @@
+C:\Users\Administrator\source\repos\mymvc\T4\bin\Debug\T4.dll
+C:\Users\Administrator\source\repos\mymvc\T4\bin\Debug\T4.pdb
+C:\Users\Administrator\source\repos\mymvc\T4\obj\Debug\T4.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\mymvc\T4\obj\Debug\T4.dll
+C:\Users\Administrator\source\repos\mymvc\T4\obj\Debug\T4.pdb

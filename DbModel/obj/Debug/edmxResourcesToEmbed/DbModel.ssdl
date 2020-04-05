@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EstablishgroupModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="JQB_User">
+    <Key>
+      <PropertyRef Name="nUserId" />
+    </Key>
+    <Property Name="nUserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nParentId" Type="int" Nullable="false" />
+    <Property Name="vcAccount" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="vcPwd" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="vcUserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="vcMobile" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="vcHeadImage" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="vcNickName" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="nStatus" Type="int" Nullable="false" />
+    <Property Name="nMerchId" Type="int" Nullable="false" />
+    <Property Name="nCreateId" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="vcAuthCode" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="vcOpenId" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="vcUnionId" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="vcUserWxId" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="dtWxIdTime" Type="datetime" Nullable="false" />
+    <Property Name="dtBindTime" Type="datetime" Nullable="false" />
+    <Property Name="dtModifyTime" Type="datetime" Nullable="false" />
+    <Property Name="dtCreateTime" Type="datetime" Nullable="false" />
+    <Property Name="dtExpirationTime" Type="datetime" Nullable="false" />
+    <Property Name="nUserType" Type="int" Nullable="false" />
+    <Property Name="dtLastLoginTime" Type="datetime" Nullable="false" />
+    <Property Name="vcOperator" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="nDataVersion" Type="int" Nullable="false" />
+    <Property Name="vcSendCode" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="dtSendCodeTime" Type="datetime" Nullable="false" />
+    <Property Name="nHighRiskType" Type="int" Nullable="false" />
+    <Property Name="nLowRiskType" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="EstablishgroupModelStoreContainer">
+    <EntitySet Name="JQB_User" EntityType="Self.JQB_User" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

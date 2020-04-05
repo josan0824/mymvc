@@ -1,0 +1,163 @@
+﻿@{
+    Layout = "";
+    string WeChatCustomer = ViewBag.WeChatCustomer;
+    string WeChatCode = ViewBag.WeChatCode;
+    string CServicePhone = ViewBag.CServicePhone;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="../images/icon/jqb.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../element-ui/index.css">
+    <link rel="stylesheet" href="../css/common/common.css">
+    <link rel="stylesheet" href="../css/login/login.css">
+    <title>涂色忧群</title>
+</head>
+<body>
+    <div class="theme-wrapper login-wrapper">
+        <div class="theme-container">
+            <div class="theme-content">
+                <div class="theme-header">
+                    <img class="theme-logo" src="../images/login/logo.png" />
+                    @*<img src="../images/login/logo-text.png" />*@
+                    <p class="sub-title">【进群宝】一站式用户增长与运营平台 &nbsp;|&nbsp; <span>助力增长&nbsp;<i class="smallfont">●</i>&nbsp;运营&nbsp;<i class="smallfont">●</i>&nbsp;变现</span></p>
+                </div>
+                <div class="theme-body clearfix">
+                    <div class="l-body">
+                        <img src="../images/login/login-img.png" width="696" />
+                    </div>
+                    <div class="r-body">
+                        <div class="login-body">
+                            <div class="line-title">
+                                <i class="line"></i>
+                                <span>登录</span>
+                                <i class="line"></i>
+                            </div>
+                            <div class="login-inner login-inner1">
+                                <div class="login-inf marginTop-15">
+                                    <span class="input-title">手机号</span>
+                                    <input type="text" id="account" name="account" placeholder="请输入手机号" class="login-input marginTop-15" />
+                                </div>
+                                <div id="account_info" class="login-info marginTop-30">
+                                    <span class="input-title">密&nbsp;&nbsp;&nbsp;码</span>
+                                    <input type="password" id="password" name="password" placeholder="请输入密码" class="login-input marginTop-15" />
+                                </div>
+                                <div id="msg_info" class="marginTop-30" style="display: none;">
+                                    <span class="input-title">验证码</span>
+                                    <div class="recode-info">
+                                        <input type="text" id="rcode" name="rcode" placeholder="验证码" class="login-input marginTop-15" />
+                                        <button class="el-button" onclick="sendCode(this)">发送验证码</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="theme-checkbox marginTop-15 clear-float">
+                                <div class="fl">
+                                    <label for="g1">
+                                        <input type="checkbox" id="g1" name="checksingle" />
+                                        <span class="check-style"></span>
+                                    </label>
+                                    <span class="checkbox-text">记住密码</span>
+                                </div>
+                                <button class="fr color-orange mt5" onclick="loginModal(this)" data-type="2">短信快捷登录</button>
+                            </div>
+                            <div class="onebig-btn marginTop-30">
+                                <button type="button" class="orange-btn big-btn" id="login">登录</button>
+                            </div>
+                            <div class="login-other align-center">
+                                <span>没有账号?</span>
+                                <a target="_blank" href="~/auth/register">点击注册</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="align-right mt10">
+                    <a href="http://www.jinqunbao.com/" target="_blank" class="color-white">前往官网→</a>
+                </div>
+            </div>
+        </div>
+        <div class="login-bottom">
+            <a href="http://www.jinqunbao.com/" target="_blank" class="go-gw"><i class="go-gw-icon"></i>前往官网</a>
+            <button class="contact-kf" onclick="$('#contact_kf').show()">联系客服</button>
+        </div>
+        <div class="theme-footer">
+            <div class="theme-footer-body">
+                <dd class="footer-info">
+                    <dl>
+                        <span>联系地址：湖南省长沙市岳麓区麓龙路199号麓谷坐标F栋</span>
+                    </dl>
+                    <dl>
+                        <span>商务合作：jqb_bd@sohu.com</span>
+                    </dl>
+                    <dl>
+                        <span>咨询热线：@CServicePhone</span>
+                    </dl>
+                    <dl class="wx">
+                        <div>
+                            <span>客服微信：@WeChatCustomer</span>
+                            <img class="wx-img" src="@WeChatCode" />
+                        </div>
+                        <div class="wx-code">
+                            <img src="@WeChatCode" />
+                        </div>
+                    </dl>
+                    <dl>
+                        <span>工作时间：每天 8:30—23:00</span>
+                    </dl>
+                </dd>
+            </div>
+            <div class="footer-address">
+                <a href="http://www.beian.miit.gov.cn/" target="_blank">网站ICP备案：湘ICP备18013578号-3</a> 版权所有：湖南涂色网络科技有限公司
+            </div>
+        </div>
+    </div>
+    <div class="login-mask mask" id="login_mask" style="display: none;">
+        <div class="login-mask-wraper">
+            <div class="login-mask-body">
+                <img src="../../images/pic/jqb-logo.png" width="144" />
+                <div class="lbox">
+                    <div class="lbox-left">
+                        <img src="../../images/pic/login-mask-left.png" />
+                    </div>
+                    <div class="lbox-right">
+                        <h1 class="lbox-bigt">
+                            <img src="../../images/pic/login-mask-t1.png" />
+                        </h1>
+                        <h4 class="lbox-smallt">
+                            <img src="../../images/pic/login-mask-t2.png" />
+                        </h4>
+                        <button class="lbox-login" onclick="closeLoginMask()">立即登录体验</button>
+                    </div>
+                </div>
+            </div>
+            <div class="login-mask-close">
+                <button onclick="closeLoginMask()">关&nbsp;&nbsp;闭</button>
+            </div>
+        </div>
+    </div>
+    <!-- 联系客服 -->
+    <div class="login-mask mask" id="contact_kf" style="display: none;">
+        <div class="contact-container">
+            <div class="contact-inner">
+                <h2 class="contact-title">联系客服</h2>
+                <img src="@WeChatCode" class="mt20" width="150px" height="150px">
+                <p class="contact-hint">长按二维码添加客服<br />或搜索微信号：@WeChatCustomer</p>
+                <div class="contack-way">
+                    <span class="tel-num">@CServicePhone</span><br />
+                    <span class="times"><i class="el-icon-time mr5"></i>08:30-23:00</span>
+                </div>
+            </div>
+            <div class="contact-close">
+                <button onclick="$('#contact_kf').hide()"></button>
+            </div>
+        </div>
+    </div>
+    <script src="../vue/vue.min.js"></script>
+    <script src="~/js/common/jquery-1.7.2.min.js"></script>
+    <script src="~/js/login.js?v=1.2"></script>
+    <script src="../element-ui/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EstablishgroupModelStoreContainer" CdmEntityContainer="EstablishgroupEntities">
+    <EntitySetMapping Name="JQB_User">
+      <EntityTypeMapping TypeName="EstablishgroupModel.JQB_User">
+        <MappingFragment StoreEntitySet="JQB_User">
+          <ScalarProperty Name="nUserId" ColumnName="nUserId" />
+          <ScalarProperty Name="nParentId" ColumnName="nParentId" />
+          <ScalarProperty Name="vcAccount" ColumnName="vcAccount" />
+          <ScalarProperty Name="vcPwd" ColumnName="vcPwd" />
+          <ScalarProperty Name="vcUserName" ColumnName="vcUserName" />
+          <ScalarProperty Name="vcMobile" ColumnName="vcMobile" />
+          <ScalarProperty Name="vcHeadImage" ColumnName="vcHeadImage" />
+          <ScalarProperty Name="vcNickName" ColumnName="vcNickName" />
+          <ScalarProperty Name="nStatus" ColumnName="nStatus" />
+          <ScalarProperty Name="nMerchId" ColumnName="nMerchId" />
+          <ScalarProperty Name="nCreateId" ColumnName="nCreateId" />
+          <ScalarProperty Name="vcAuthCode" ColumnName="vcAuthCode" />
+          <ScalarProperty Name="vcOpenId" ColumnName="vcOpenId" />
+          <ScalarProperty Name="vcUnionId" ColumnName="vcUnionId" />
+          <ScalarProperty Name="vcUserWxId" ColumnName="vcUserWxId" />
+          <ScalarProperty Name="dtWxIdTime" ColumnName="dtWxIdTime" />
+          <ScalarProperty Name="dtBindTime" ColumnName="dtBindTime" />
+          <ScalarProperty Name="dtModifyTime" ColumnName="dtModifyTime" />
+          <ScalarProperty Name="dtCreateTime" ColumnName="dtCreateTime" />
+          <ScalarProperty Name="dtExpirationTime" ColumnName="dtExpirationTime" />
+          <ScalarProperty Name="nUserType" ColumnName="nUserType" />
+          <ScalarProperty Name="dtLastLoginTime" ColumnName="dtLastLoginTime" />
+          <ScalarProperty Name="vcOperator" ColumnName="vcOperator" />
+          <ScalarProperty Name="nDataVersion" ColumnName="nDataVersion" />
+          <ScalarProperty Name="vcSendCode" ColumnName="vcSendCode" />
+          <ScalarProperty Name="dtSendCodeTime" ColumnName="dtSendCodeTime" />
+          <ScalarProperty Name="nHighRiskType" ColumnName="nHighRiskType" />
+          <ScalarProperty Name="nLowRiskType" ColumnName="nLowRiskType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

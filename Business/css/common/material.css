@@ -1,0 +1,529 @@
+.mlDialog .el-dialog__body {
+    max-height: 550px;
+    overflow: hidden;
+}
+.key-layout {
+    display: inline-block;
+    vertical-align: middle;
+}
+.material-tab-content, .material-tab-content1 .material-right {
+    height: 420px;
+    overflow-y: auto;
+}
+.material-left{
+    float: left;
+    width: 40%;
+}
+.material-right {
+    float: right;
+    width: 60%;
+}
+.material-left .tarea-box {
+    width: 95%;
+    height: 350px;
+}
+.material-left .tarea-box .tarea{
+    height: 90%;
+}
+.material-border{
+    border: 1px solid #dddee1;
+}
+.material-header {
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #dddee1;
+}
+.jqb-header-title {
+    text-align: center;
+    font-size: 14px;
+}
+.material-header .jqb-header-title {
+    text-align: left;
+    padding-left: 10px;
+}
+.material-txts .txt-list li:first-child {
+    border-top: none;
+}
+.material-txts .txt-list li {
+    border-top: 1px solid #dddee1;
+    max-height: 65px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+.empty {
+    position: relative;
+    min-height: 344px;
+    text-align: center;
+}
+.empty-body {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin-top: -64px;
+}
+.hide-label .el-radio__label{
+    color: #fff;
+    font-size: 0;
+    display: none;
+}
+.item .el-checkbox-button__inner {
+    padding: 0;
+}
+.limg-go img{
+}
+/*图片*/
+.material-imgs .img-list {
+    margin-bottom: 15px;
+    padding: 0 13px;
+}
+.material-imgs .img-list li,.material-music li,.material-card li,.material-litter li{
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+}
+.material-imgs .img-box {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0, .5);
+    overflow: hidden;
+}
+.material-imgs .img-box > div,.material-imgs .img-box img {
+    width: 100%;
+    height: 100%;
+}
+.material-imgs .txt-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.5);
+}
+.material-imgs .txt-bottom span {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #fff;
+    padding: 0 10px;
+}
+/*链接*/
+.material-link .material-header {
+    height: 40px;
+    line-height: 40px;
+}
+.material-link .jqb-header-title.active {
+    color: #fc5f3a;
+    border-bottom: 1px solid #fc5f3a;
+}
+.material-link .jqb-header-title {
+    display: inline-block;
+    margin: 0 30px;
+    line-height: 39px;
+    cursor: pointer;
+}
+.link-list li{
+    display: table;
+    border-top: 1px solid #ececec;
+}
+.link-list li,.link-box{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.link-list-sp li{
+    border-top: 1px solid #ececec;
+}
+.link-list li:first-child{
+    border-top: none;
+}
+.link-list li > div ,.link-box > div{
+    display: table-cell;
+    vertical-align: middle;
+}
+.link-info{
+    display: inline-block;
+    width: 360px;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    padding: 10px;
+}
+.link-info .link-title{
+    font-size: 14px;
+    color: #4E5465;
+    max-height: 40px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.link-list .link-checkbox,.link-box .link-checkbox,.list .link-checkbox{
+    width: 30px;
+}
+.link-desc {
+    font-size: 0;
+}
+.link-desc span{
+    display: inline-block;
+     width: calc(100% - 70px);
+    font-size: 12px;
+    color: #90a3b0;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.link-desc img{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+.link-list .el-checkbox__label, .mimg-list .el-checkbox__label {
+    display: none;
+    font-size: 0;
+    color: #fff;
+}
+.myself-link{
+    padding: 15px;
+}
+.myself-link .column-half{
+    width: 50% !important;
+}
+.width350{
+    width: 350px;
+}
+.myself-link .up_btn{
+    display: inline-block;
+    height: 37px;
+    text-align: center;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dddee1;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.myself-link .link-info{
+    border-radius: 5px;
+}
+/*语音*/
+.material-audio {
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+}
+.material-audio .arrow-left {
+    border-width: 10px;
+    border-right-color: #a0e75a;
+    left: -18px;
+    top: 10px;
+}
+.material-audio .audio-bar {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #a0e75a;
+    border-radius: 4px;
+    margin: 0;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+.audio-bar img {
+    width: 30px;
+    height: 30px;
+}
+.audio-duration {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.material-audio >time {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #90a3b0;
+    margin-left: 100px;
+}
+/*音乐*/
+.smiddle-card {
+    width: 260px;
+}
+.card {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #dddee1;
+    text-align: left;
+    overflow: hidden;
+}
+.card-content {
+    font-size: 0;
+    margin: 8px;
+}
+.card-img-txt {
+    display: inline-block;
+    width: calc(100% - 60px);
+    max-height: 55px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ababab;
+    margin-right: 10px;
+    vertical-align: top;
+    overflow: hidden;
+}
+.material-music .card-title {
+    margin: 0;
+    color: #5b5b5b;
+}
+.card-title {
+    width: 93%;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.small-img {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.btn-music .play{
+    background-image: url("../../images/icon/icon_play.png");
+}
+.btn-music .pause{
+    background-image: url("../../images/icon/icon_pause.png");
+}
+.btn-music {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.btn-music i{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+    margin: 0 auto;
+}
+.card-bottom {
+     width: 100%;
+     line-height: 20px;
+     background-color: #f4f4f4;
+     border-top: 1px solid #dddee1;
+     padding: 1px 0 1px 10px;
+}
+.card-bottom img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.card-bottom span {
+    font-size: 12px;
+    color: #ababab;
+}
+/*视频*/
+.material-video li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+}
+.video-card {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #e6e6e6;
+    overflow: hidden;
+    background-color: #000;
+    margin: 0 auto;
+}
+.video-card > video {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+/*名片*/
+.person-card{
+    width: 248px;
+}
+.material-card .img-txt {
+    width: calc(100% - 55px);
+    font-size: 14px;
+}
+/*小程序*/
+.litter_p{
+    width: 250px;
+}
+.material-litter .card-title {
+    padding: 10px;
+    margin: 0;
+}
+.material-litter .big-img {
+    margin: 0 10px 10px;
+    height: 120px;
+    overflow: hidden;
+}
+.material-litter .big-img > img {
+    min-height: 100%;
+    min-width: 100%;
+}
+.card-bottom .litter-img {
+    width: 18px;
+    height: 18px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+.material-litter .litter-img {
+    background-image: url(../../images/icon/icon_exe.png);
+    background-size: 18px;
+}
+.outline-green {
+    outline: 3px solid #fc5f3a;
+}
+.material-fail {
+    font-size: 12px;
+    color: #fc5f3a;
+    text-align: left;
+}
+.fail-right {
+    width: 80%;
+    padding-left: 10px;
+}
+.fail-tiny {
+    width: 250px;
+    margin: 0 auto;
+}
+/*文件*/
+.file-item {
+    padding: 20px;
+    border-top: 1px solid #ececec;
+}
+.file-name{
+    font-size: 14px;
+    color: #353535;
+    margin-left: 50px;
+}
+.file-img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../../images/fileicon/pdf.png") no-repeat;
+    background-size: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.file-img.doc{
+    background-image: url("../../images/fileicon/microsoftword.png");
+}
+.file-img.pp{
+    background-image: url("../../images/fileicon/microsoftpowerpoint.png");
+}
+.file-img.excel{
+    background-image: url("../../images/fileicon/microsoftexcel.png");
+}
+.file-img.txt {
+    background-image: url("../../images/fileicon/file_txt.png");
+}
+.file-name:hover{
+    color: #01AAED;
+    text-decoration: underline;
+}
+/*统一的添加内容后的显示样式*/
+.show-panel{
+    margin-top: 15px;
+}
+.set-conent{
+    font-size: 14px;
+    color: #ababab;
+    margin: 15px 0 0 20px;
+}
+.entry-box li{
+    display: table;
+    width: 100%;
+    min-height: 100px;
+    margin-top: 15px;
+    cursor: move;
+}
+.entry-box .entry-index{
+    color: #ababab;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.entry-box li > div{
+    display: table-cell;
+    vertical-align: middle;
+}
+.entry-div{
+    width: 99%;
+    font-size: 0;
+    padding: 15px;
+    border: 1px solid #d2d2d2;
+    box-sizing: border-box;
+}
+.entry-left{
+    display: inline-block;
+    width: 80%;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.entry-right {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    vertical-align: middle;
+}
+.entry-right .button-text{
+    font-size: 18px;
+    margin-right: 20px;
+}
+.entry-right .el-icon-rank{
+    cursor: move !important;
+}
+.add-file{
+    position: relative;
+    display: inline-block;
+    width: 117px;
+    height: 72px;
+    background-color: #f5f5f5;
+    margin-right: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.add-file-default i{
+    display: block;
+    color: #dddddd;
+    font-weight: 600;
+    font-size: 28px;
+    padding-top: 2px;
+}
+.add-file-default .file-txt {
+    font-size: 12px;
+    color: #ababab;
+}
+.add-file .el-upload {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+.entry-left .video-card{
+    margin: 0;
+}

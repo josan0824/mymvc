@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EstablishgroupModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="JQB_User">
+    <Key>
+      <PropertyRef Name="nUserId" />
+    </Key>
+    <Property Name="nUserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nParentId" Type="Int32" Nullable="false" />
+    <Property Name="vcAccount" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="vcPwd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="vcUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="vcMobile" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="vcHeadImage" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="vcNickName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="nStatus" Type="Int32" Nullable="false" />
+    <Property Name="nMerchId" Type="Int32" Nullable="false" />
+    <Property Name="nCreateId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="vcAuthCode" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="vcOpenId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="vcUnionId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="vcUserWxId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dtWxIdTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dtBindTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dtModifyTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dtCreateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dtExpirationTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="nUserType" Type="Int32" Nullable="false" />
+    <Property Name="dtLastLoginTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="vcOperator" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nDataVersion" Type="Int32" Nullable="false" />
+    <Property Name="vcSendCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dtSendCodeTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="nHighRiskType" Type="Int32" Nullable="false" />
+    <Property Name="nLowRiskType" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="EstablishgroupEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="JQB_User" EntityType="Self.JQB_User" />
+  </EntityContainer>
+</Schema>

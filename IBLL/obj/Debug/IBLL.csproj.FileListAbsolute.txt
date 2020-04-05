@@ -1,0 +1,2 @@
+C:\Users\Administrator\source\repos\mymvc\IBLL\obj\Debug\IBLL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\mymvc\IBLL\obj\Debug\IBLL.csprojAssemblyReference.cache

@@ -1,0 +1,13 @@
+C:\Users\Administrator\source\repos\mymvc\DbModel\obj\Debug\DbModel.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\mymvc\DbModel\bin\Debug\DbModel.dll.config
+C:\Users\Administrator\source\repos\mymvc\DbModel\bin\Debug\DbModel.dll
+C:\Users\Administrator\source\repos\mymvc\DbModel\bin\Debug\DbModel.pdb
+C:\Users\Administrator\source\repos\mymvc\DbModel\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\source\repos\mymvc\DbModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\source\repos\mymvc\DbModel\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\source\repos\mymvc\DbModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\source\repos\mymvc\DbModel\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\source\repos\mymvc\DbModel\obj\Debug\DbModel.csproj.CopyComplete
+C:\Users\Administrator\source\repos\mymvc\DbModel\obj\Debug\DbModel.dll
+C:\Users\Administrator\source\repos\mymvc\DbModel\obj\Debug\DbModel.pdb
+C:\Users\Administrator\source\repos\mymvc\DbModel\obj\Debug\DbModel.csprojAssemblyReference.cache
