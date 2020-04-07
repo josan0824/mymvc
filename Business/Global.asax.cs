@@ -1,3 +1,4 @@
+using Business.App_Start;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,9 @@ namespace Business
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            //程序集 注入模式
+            AutofacConfig.Register();
         }
     }
 }

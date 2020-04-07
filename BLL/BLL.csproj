@@ -45,9 +45,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{B836253F-5BBD-4A23-8A70-77C8ABC56158}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DbModel\DbModel.csproj">
       <Project>{6CBB7857-FD54-47FF-A359-625EC3F824B2}</Project>
       <Name>DbModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IBLL\IBLL.csproj">
+      <Project>{DA68219D-7C33-4CDD-AAA5-F81D5320536D}</Project>
+      <Name>IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{42DF3C28-18C3-49A0-B6D9-93E9545E957B}</Project>
+      <Name>IDAL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

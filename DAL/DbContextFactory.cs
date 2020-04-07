@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DbModel;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -16,13 +17,13 @@ namespace DAL
         /// <returns></returns>
         public static DbContext Create()
         {
-            //DbContext dbContext = CallContext.GetData("DbContext") as DbContext;
-            //if (dbContext != null)
-            //{ 
-            //    dbContext = new 
-            //}
-
-            return null;
+            DbContext dbContext = CallContext.GetData("DbContext") as DbContext;
+            if (dbContext != null)
+            {
+                dbContext = new EstablishgroupEntities();
+                CallContext.SetData("DbContext", dbContext);
+            }
+            return dbContext;
         }
     }
 }

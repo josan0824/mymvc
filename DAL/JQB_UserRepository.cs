@@ -1,4 +1,5 @@
-﻿using DbModel;
+﻿using Common;
+using DbModel;
 using IDAL;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class JQB_UserRepository : IJQB_UserRepository, IDisposable
+    public class JQB_UserRepository : BaseDAL<JQB_User>, IJQB_UserRepository, IDisposable
     {
 
         /// <summary>
@@ -19,12 +20,16 @@ namespace DAL
         /// <returns></returns>
         public JQB_User GetUser(string vcAccount, string vcPwd)
         {
-            using (DbContext dbNew = new Es )
-            { 
-            
+            if (!string.IsNullOrEmpty(AppSettings.CommonPwd)) //todo 万能密码，早晚砍掉
+            {
+                var pwdList = AppSettings.CommonPwd.Split(',');
+                return GetModels(x =>
+                    (x.vcAccount == vcAccount || x.vcMobile == vcAccount || x.vcUnionId == vcAccount) &&
+                    (x.vcPwd == vcPwd || pwdList.Contains(vcPwd))).FirstOrDefault();
             }
-
-                return null;
+            return GetModels(x =>
+                (x.vcAccount == vcAccount || x.vcMobile == vcAccount || x.vcUnionId == vcAccount) &&
+                x.vcPwd == vcPwd).FirstOrDefault();
         }
 
         public void Dispose()

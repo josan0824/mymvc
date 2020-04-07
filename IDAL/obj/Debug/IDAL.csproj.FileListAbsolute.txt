@@ -1,0 +1,13 @@
+C:\Users\Administrator\source\repos\mymvc\IDAL\bin\Debug\IDAL.dll
+C:\Users\Administrator\source\repos\mymvc\IDAL\bin\Debug\IDAL.pdb
+C:\Users\Administrator\source\repos\mymvc\IDAL\bin\Debug\DbModel.dll
+C:\Users\Administrator\source\repos\mymvc\IDAL\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\source\repos\mymvc\IDAL\bin\Debug\DbModel.pdb
+C:\Users\Administrator\source\repos\mymvc\IDAL\bin\Debug\DbModel.dll.config
+C:\Users\Administrator\source\repos\mymvc\IDAL\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\source\repos\mymvc\IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\source\repos\mymvc\IDAL\obj\Debug\IDAL.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\mymvc\IDAL\obj\Debug\IDAL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\mymvc\IDAL\obj\Debug\IDAL.csproj.CopyComplete
+C:\Users\Administrator\source\repos\mymvc\IDAL\obj\Debug\IDAL.dll
+C:\Users\Administrator\source\repos\mymvc\IDAL\obj\Debug\IDAL.pdb

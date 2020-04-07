@@ -48,11 +48,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseDAL.cs" />
     <Compile Include="DbContextFactory.cs" />
     <Compile Include="JQB_UserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{B836253F-5BBD-4A23-8A70-77C8ABC56158}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DbModel\DbModel.csproj">
       <Project>{6CBB7857-FD54-47FF-A359-625EC3F824B2}</Project>
       <Name>DbModel</Name>

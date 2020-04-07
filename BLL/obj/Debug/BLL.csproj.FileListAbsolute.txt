@@ -11,3 +11,15 @@ C:\Users\Administrator\source\repos\mymvc\BLL\obj\Debug\BLL.csprojAssemblyRefere
 C:\Users\Administrator\source\repos\mymvc\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\Administrator\source\repos\mymvc\BLL\obj\Debug\BLL.dll
 C:\Users\Administrator\source\repos\mymvc\BLL\obj\Debug\BLL.pdb
+C:\Users\Administrator\source\repos\mymvc\BLL\bin\Debug\Common.dll
+C:\Users\Administrator\source\repos\mymvc\BLL\bin\Debug\IBLL.dll
+C:\Users\Administrator\source\repos\mymvc\BLL\bin\Debug\IDAL.dll
+C:\Users\Administrator\source\repos\mymvc\BLL\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\Administrator\source\repos\mymvc\BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\source\repos\mymvc\BLL\bin\Debug\ServiceStack.Logging.NLog.dll
+C:\Users\Administrator\source\repos\mymvc\BLL\bin\Debug\Common.pdb
+C:\Users\Administrator\source\repos\mymvc\BLL\bin\Debug\Common.dll.config
+C:\Users\Administrator\source\repos\mymvc\BLL\bin\Debug\IBLL.pdb
+C:\Users\Administrator\source\repos\mymvc\BLL\bin\Debug\IDAL.pdb
+C:\Users\Administrator\source\repos\mymvc\BLL\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\Administrator\source\repos\mymvc\BLL\bin\Debug\Newtonsoft.Json.xml

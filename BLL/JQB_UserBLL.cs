@@ -50,7 +50,6 @@ namespace BLL
 
         public void Dispose()
         {
-            throw new NotImplementedException();
         }
     }
 }
