@@ -1,5 +1,5 @@
-C:\Users\Administrator\source\repos\mymvc\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\mymvc\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\mymvc\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\mymvc\Business\bin\Business.dll.config
 C:\Users\Administrator\source\repos\mymvc\Business\bin\Business.dll
 C:\Users\Administrator\source\repos\mymvc\Business\bin\Business.pdb
@@ -53,10 +53,14 @@ C:\Users\Administrator\source\repos\mymvc\Business\bin\roslyn\vbc.rsp
 C:\Users\Administrator\source\repos\mymvc\Business\bin\roslyn\VBCSCompiler.exe
 C:\Users\Administrator\source\repos\mymvc\Business\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Administrator\source\repos\mymvc\Business\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\source\repos\mymvc\Business\bin\BLL.dll
+C:\Users\Administrator\source\repos\mymvc\Business\bin\Common.dll
 C:\Users\Administrator\source\repos\mymvc\Business\bin\DbModel.dll
+C:\Users\Administrator\source\repos\mymvc\Business\bin\IBLL.dll
 C:\Users\Administrator\source\repos\mymvc\Business\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Administrator\source\repos\mymvc\Business\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Administrator\source\repos\mymvc\Business\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\source\repos\mymvc\Business\bin\ServiceStack.Interfaces.dll
 C:\Users\Administrator\source\repos\mymvc\Business\bin\System.Web.Helpers.dll
 C:\Users\Administrator\source\repos\mymvc\Business\bin\System.Web.Mvc.dll
 C:\Users\Administrator\source\repos\mymvc\Business\bin\System.Web.Optimization.dll
@@ -65,8 +69,15 @@ C:\Users\Administrator\source\repos\mymvc\Business\bin\System.Web.WebPages.Deplo
 C:\Users\Administrator\source\repos\mymvc\Business\bin\System.Web.WebPages.dll
 C:\Users\Administrator\source\repos\mymvc\Business\bin\System.Web.WebPages.Razor.dll
 C:\Users\Administrator\source\repos\mymvc\Business\bin\WebGrease.dll
+C:\Users\Administrator\source\repos\mymvc\Business\bin\ServiceStack.Logging.NLog.dll
+C:\Users\Administrator\source\repos\mymvc\Business\bin\EntityFramework.dll
+C:\Users\Administrator\source\repos\mymvc\Business\bin\BLL.pdb
+C:\Users\Administrator\source\repos\mymvc\Business\bin\Common.pdb
+C:\Users\Administrator\source\repos\mymvc\Business\bin\Common.dll.config
 C:\Users\Administrator\source\repos\mymvc\Business\bin\DbModel.pdb
 C:\Users\Administrator\source\repos\mymvc\Business\bin\DbModel.dll.config
+C:\Users\Administrator\source\repos\mymvc\Business\bin\IBLL.pdb
+C:\Users\Administrator\source\repos\mymvc\Business\bin\ServiceStack.Interfaces.xml
 C:\Users\Administrator\source\repos\mymvc\Business\bin\System.Web.Helpers.xml
 C:\Users\Administrator\source\repos\mymvc\Business\bin\System.Web.Mvc.xml
 C:\Users\Administrator\source\repos\mymvc\Business\bin\System.Web.Optimization.xml
@@ -77,6 +88,7 @@ C:\Users\Administrator\source\repos\mymvc\Business\bin\System.Web.WebPages.Razor
 C:\Users\Administrator\source\repos\mymvc\Business\bin\Newtonsoft.Json.xml
 C:\Users\Administrator\source\repos\mymvc\Business\bin\Antlr3.Runtime.pdb
 C:\Users\Administrator\source\repos\mymvc\Business\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\source\repos\mymvc\Business\bin\EntityFramework.xml
 C:\Users\Administrator\source\repos\mymvc\Business\bin\zh-Hans\System.Web.Helpers.resources.dll
 C:\Users\Administrator\source\repos\mymvc\Business\bin\zh-Hans\System.Web.Mvc.resources.dll
 C:\Users\Administrator\source\repos\mymvc\Business\bin\zh-Hans\System.Web.Optimization.resources.dll
@@ -84,6 +96,7 @@ C:\Users\Administrator\source\repos\mymvc\Business\bin\zh-Hans\System.Web.Razor.
 C:\Users\Administrator\source\repos\mymvc\Business\bin\zh-Hans\System.Web.WebPages.resources.dll
 C:\Users\Administrator\source\repos\mymvc\Business\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Administrator\source\repos\mymvc\Business\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrator\source\repos\mymvc\Business\bin\zh-Hans\EntityFramework.resources.dll
 C:\Users\Administrator\source\repos\mymvc\Business\obj\Debug\Business.csproj.CopyComplete
 C:\Users\Administrator\source\repos\mymvc\Business\obj\Debug\Business.dll
 C:\Users\Administrator\source\repos\mymvc\Business\obj\Debug\Business.pdb

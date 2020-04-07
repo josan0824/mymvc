@@ -89,4 +89,3 @@ C:\Users\Administrator\source\repos\mymvc\mymvc\obj\Debug\mymvc.csproj.CoreCompi
 C:\Users\Administrator\source\repos\mymvc\mymvc\obj\Debug\mymvc.csproj.CopyComplete
 C:\Users\Administrator\source\repos\mymvc\mymvc\obj\Debug\mymvc.dll
 C:\Users\Administrator\source\repos\mymvc\mymvc\obj\Debug\mymvc.pdb
-C:\Users\Administrator\source\repos\mymvc\mymvc\obj\Debug\mymvc.csprojAssemblyReference.cache

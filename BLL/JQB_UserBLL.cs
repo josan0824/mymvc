@@ -1,4 +1,7 @@
-﻿using DbModel;
+﻿using Common;
+using DbModel;
+using IBLL;
+using IDAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +10,10 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    class JQB_UserBLL
+    public class JQB_UserBLL : IJQB_UserBLL, IDisposable
     {
+        public IJQB_UserRepository JqbUserRepostory { get; set; }
+
         /// <summary>
         /// 根据手机号获取用户
         /// </summary>
@@ -28,9 +33,8 @@ namespace BLL
         /// <returns></returns>
         public JQB_User CheckLogin(string vcAccount, string vcPwd)
         {
-            //var user = JqbUserRepostory.GetUser(vcAccount, DESEncrypt.GetMD5String(vcPwd)) ?? new JQB_User();
-            //return user;
-            return null;
+            var user = JqbUserRepostory.GetUser(vcAccount, DESEncrypt.GetMD5String(vcPwd)) ?? new JQB_User();
+            return user;
         }
 
         /// <summary>
@@ -42,6 +46,11 @@ namespace BLL
         {
             //return JqbUserRepostory.Update(jqbUser);
             return 0;
+        }
+
+        public void Dispose()
+        {
+            throw new NotImplementedException();
         }
     }
 }

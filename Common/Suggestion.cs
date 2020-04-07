@@ -75,3 +75,4 @@ namespace Common
         public static string YouCanOnlyOperateARecord { get { return "一次只能操作一条记录"; } }
         public static string YouWantToDeleteTheSelectedRecords { get { return "您确定要删除所选记录吗？"; } }
     }
+}

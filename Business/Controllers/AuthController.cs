@@ -27,8 +27,11 @@ namespace Business.Controllers
         }
 
         /// <summary>
-        /// 登陆api
+        /// 登录api
         /// </summary>
+        /// <param name="account">用户名</param>
+        /// <param name="Pwd">密码base64加密</param>
+        /// <param name="type">类型，0-帐号密码登录</param>
         /// <returns></returns>
         [HttpPost]
         public JsonResult UserLogin(string account, string Pwd, int type)
@@ -36,6 +39,7 @@ namespace Business.Controllers
             JQB_User user = new JQB_User();
             if (type == 2)
             {
+                #region 验证码登录
                 user = JqbUserBll.GetUserByMobile(account);
                 if (user.nUserId <= 0)
                 {
@@ -55,11 +59,12 @@ namespace Business.Controllers
                         return Json(JsonHandler.CreateMessage(Suggestion.Fail, "验证码不正确"), JsonRequestBehavior.AllowGet);
                     }
                 }
+                #endregion
             }
             else
             {
                 Pwd = Utils.Base64Decode(Pwd);
-                //校验密码
+                //校验帐号密码
                 user = JqbUserBll.CheckLogin(account, Pwd);
                 if (user.nUserId <= 0)
                 {
@@ -140,7 +145,7 @@ namespace Business.Controllers
                     vcOpenId = user.vcOpenId,
                     //nUserGroup = nUserGroup,
                 };
-                string jsonStr = userJsonData.ToJson();
+                string jsonStr = ObjectExtensions.ToJSON(userJsonData);
                 jsonStr = jsonStr.Trim().TrimStart('[').TrimEnd(']');
 
                 //设置cookie
@@ -171,7 +176,7 @@ namespace Business.Controllers
                 nIsDefaultPwd = nIsDefaultPwd,
 
             };
-            return Json(JsonHandler.CreateMessage(Suggestion.Successful, "验证通过", data.ToJson()));
+            return Json(JsonHandler.CreateMessage(Suggestion.Successful, "验证通过", ObjectExtensions.ToJSON(data)));
         }
 
     }

@@ -65,7 +65,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DbModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="DbModel\JQB_User.cs" />
     <Compile Include="JQB_User.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
@@ -85,7 +84,9 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="DbModel\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="DbModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

@@ -7,7 +7,7 @@ C:\Users\Administrator\source\repos\mymvc\DbModel\bin\Debug\EntityFramework.SqlS
 C:\Users\Administrator\source\repos\mymvc\DbModel\bin\Debug\EntityFramework.xml
 C:\Users\Administrator\source\repos\mymvc\DbModel\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Administrator\source\repos\mymvc\DbModel\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\source\repos\mymvc\DbModel\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
 C:\Users\Administrator\source\repos\mymvc\DbModel\obj\Debug\DbModel.csproj.CopyComplete
 C:\Users\Administrator\source\repos\mymvc\DbModel\obj\Debug\DbModel.dll
 C:\Users\Administrator\source\repos\mymvc\DbModel\obj\Debug\DbModel.pdb
-C:\Users\Administrator\source\repos\mymvc\DbModel\obj\Debug\DbModel.csprojAssemblyReference.cache
