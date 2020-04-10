@@ -209,3 +209,9 @@ C:\Users\Administrator\source\repos\mymvc\Business\bin\Autofac.Integration.Mvc.x
 C:\Users\Administrator\source\repos\mymvc\Business\bin\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\Administrator\source\repos\mymvc\Business\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Administrator\source\repos\mymvc\Business\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrator\source\repos\mymvc\Business\bin\DAL.dll
+C:\Users\Administrator\source\repos\mymvc\Business\bin\DAL.pdb
+C:\Users\Administrator\source\repos\mymvc\Business\bin\DAL.dll.config
+C:\Users\Administrator\source\repos\mymvc\Business\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\source\repos\mymvc\Business\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\source\repos\mymvc\Business\bin\zh-Hans\EntityFramework.SqlServer.resources.dll

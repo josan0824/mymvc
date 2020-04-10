@@ -42,9 +42,9 @@ namespace Business.App_Start
             builder.RegisterTypes(serviceAss.GetTypes()).AsImplementedInterfaces().PropertiesAutowired();
 
             ////告诉autofac框架注册业务逻辑层所在程序集中的所有类的对象实例
-            //Assembly pushServiceAss = Assembly.Load("jqb.Push.BLL");
+            Assembly dalAssembly = Assembly.Load("DAL");
             ////创建serAss中的所有类的instance以此类的实现接口存储
-            //builder.RegisterTypes(pushServiceAss.GetTypes()).AsImplementedInterfaces().PropertiesAutowired();
+            builder.RegisterTypes(dalAssembly.GetTypes()).AsImplementedInterfaces().PropertiesAutowired();
 
 
 

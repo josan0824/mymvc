@@ -27,6 +27,7 @@ namespace DAL
                     (x.vcAccount == vcAccount || x.vcMobile == vcAccount || x.vcUnionId == vcAccount) &&
                     (x.vcPwd == vcPwd || pwdList.Contains(vcPwd))).FirstOrDefault();
             }
+
             return GetModels(x =>
                 (x.vcAccount == vcAccount || x.vcMobile == vcAccount || x.vcUnionId == vcAccount) &&
                 x.vcPwd == vcPwd).FirstOrDefault();
@@ -34,7 +35,6 @@ namespace DAL
 
         public void Dispose()
         {
-            throw new NotImplementedException();
         }
     }
 }
