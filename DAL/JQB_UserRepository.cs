@@ -33,8 +33,21 @@ namespace DAL
                 x.vcPwd == vcPwd).FirstOrDefault();
         }
 
+        /// <summary>
+        /// 更新用户信息
+        /// </summary>
+        /// <param name="jqbUser"></param>
+        /// <returns></returns>
+        public bool UpdateUser(JQB_User jqbUser)
+        {
+            Update(jqbUser);
+            return SaveChanges();
+        }
+
         public void Dispose()
         {
         }
+
+
     }
 }

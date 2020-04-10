@@ -10,5 +10,7 @@ namespace IDAL
     public interface IJQB_UserRepository
     {
         JQB_User GetUser(string vcAccount, string vcPwd);
+
+        bool UpdateUser(JQB_User jqbUser);
     }
 }

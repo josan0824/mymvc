@@ -13,6 +13,6 @@ namespace IBLL
 
         JQB_User CheckLogin(string vcAccount, string vcPwd);
 
-        int Update(JQB_User jqbUser);
+        bool Update(JQB_User jqbUser);
     }
 }

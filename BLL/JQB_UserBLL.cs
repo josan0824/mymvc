@@ -42,10 +42,9 @@ namespace BLL
         /// </summary>
         /// <param name="jqbUser"></param>
         /// <returns></returns>
-        public int Update(JQB_User jqbUser)
+        public bool Update(JQB_User jqbUser)
         {
-            //return JqbUserRepostory.Update(jqbUser);
-            return 0;
+            return JqbUserRepostory.UpdateUser(jqbUser);
         }
 
         public void Dispose()
